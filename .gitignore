@@ -1,0 +1,4 @@
+MyVideoAPI/bin/*
+MyVideoAPI/obj/*
+MyVideoAPI/Migrations/*
+MyVideoAPI/MyVideos.db
