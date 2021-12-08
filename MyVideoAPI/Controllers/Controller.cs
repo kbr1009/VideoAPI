@@ -8,13 +8,13 @@ using MyVideoAPI.Models;
 
 namespace MyVideoAPI.Controllers
 {
-    [Route("api/[controller]")]  
+    [Route("api/v1/[controller]")]  
     [ApiController]  
-    public class UserGroupController : ControllerBase  
+    public class videosController : ControllerBase  
     {  
         private MyVideoApiContext myDbContext;  
   
-        public UserGroupController(MyVideoApiContext context)  
+        public videosController(MyVideoApiContext context)  
         {  
             myDbContext = context;  
         }  
